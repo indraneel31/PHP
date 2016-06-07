@@ -1,0 +1,24 @@
+
+body {
+
+}
+
+.form-container {
+    margin-top: 12px;
+}
+
+label {
+    font-weight: normal;
+    color: #333;
+}
+
+.form-control {
+    width: 70%;
+    display: inline;
+}
+
+.error {
+    margin-left: 2px;
+    color: red;
+}
+
