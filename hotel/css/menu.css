@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0;
+	position:absolute;
+}
+li{
+	display:inline-table;
+	float:left;
+	margin-right:1px;
+}
+li a{
+	display:block;
+	min-width:240px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	color:#000;
+	background:#999;
+	text-decoration:none;
+	border-radius:10px 0px 10px 0px;
+	border-color:#0000FF;
+}
+li:hover a
+{
+	background:#00FF00;
+}
+li:hover ul a
+{
+	background:#90F;
+	color:#FFFF00;
+	height:40px;
+	line-height:40px;
+}
+li:hover ul a:hover
+{
+	background:#906;
+	color:#FF00FF;
+}
+li ul
+{
+	display:none;
+}
+li ul li
+{
+	display:block;
+	float:none;
+}
+li ul li a
+{
+	width:auto;
+	min-width:200px;
+	padding:0 20px;
+}
+ul li a:hover + .hidden,
+.hidden:hover
+{
+	display:block;
+}
