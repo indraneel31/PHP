@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Member's Entry</title>
+    <style>
+
+        .member-entry-form {
+            margin-top: 20px;
+        }
+
+        .member-entry-form input[type="text"] {
+            width: 18%;
+            height: 20px;
+        }
+
+        .member-entry-form input[type="submit"] {
+            width: 60px;
+            height: 26px;
+            cursor: pointer;
+        }
+
+        .member-entry-form input[type="text"], .member-entry-form input[type="submit"] {
+            padding: 2px 2px;
+        }
+
+    </style>
+</head>
+<body>
+<h3>Member's Entry...</h3><hr/>
+
+<div class="member-entry-form">
+    <form action="acc.php" method="GET">
+        <input type="text" name="member_entry_id" placeholder="Please enter your email/ phone">
+        <input type="submit" value="Enter">
+    </form>
+</div>
+</body>
+</html>
